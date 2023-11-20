@@ -27,3 +27,10 @@ console.log(5 + true);
 console.log(5 * "5");
 console.log(1 == true);
 console.log(1 === true);
+
+// Initial look at arrays
+const myFamily = ['Adele', 'Luke', 'Herbie'];
+console.log(myFamily)
+console.log(myFamily[0])
+console.log(myFamily[1])
+console.log(myFamily[2])
