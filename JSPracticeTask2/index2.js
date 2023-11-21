@@ -34,3 +34,22 @@ console.log(myFamily)
 console.log(myFamily[0])
 console.log(myFamily[1])
 console.log(myFamily[2])
+
+//Push adds item to the end of the array
+myFamily.push("Sasha");
+console.log(myFamily);
+
+//shift removes first element
+myFamily.shift();
+console.log(myFamily);
+
+//unshift adds element at the start of the array 
+myFamily.unshift("Adele");
+console.log(myFamily);
+
+//splice goes to that index, deletes that many, then can add
+myFamily.splice(3,0,"Archie");
+console.log(myFamily);
+
+myFamily.splice(3,1)
+console.log(myFamily);
