@@ -69,3 +69,4 @@ for (let numb of odds1) {
     additional1 = additional1 + numb
     console.log("equals;", additional1)
 }
+console.log("Final Total", additional1);
