@@ -40,3 +40,10 @@ function AddElement(tag, text) {
     // appendchild adds it to the page
     document.body.appendChild(newElement);
 }
+
+const myWords = document.getElementById("myWords");
+myWords.style.color = "purple"
+
+// task
+const redP = document.getElementById("redP");
+redP.style.color = "red"
