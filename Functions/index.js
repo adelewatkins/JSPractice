@@ -37,13 +37,14 @@ function FizzBuzz(numb) {
 }
 
 
-// ext task
+// ext task, 2 numbers and find the largest
 function largest(fig1, fig2) {
     if (fig1 > fig2) {
         return fig1
     } else return fig2
 }
 
+// 3 numbers and find the smallest 
 function smallest(fig1, fig2, fig3) {
     if (fig1 < fig2 && fig1 < fig3) {
         return fig1;
@@ -51,3 +52,26 @@ function smallest(fig1, fig2, fig3) {
         return fig2;
     } else return fig3;
 }
+
+// anonymous functions
+
+const anonPlus = function (a,b){
+    return a + b;
+}
+
+const anonDivide = function (a,b){
+    return a / b;
+}
+
+const anonTimes = function (a,b){
+    return a * b;
+}
+
+
+// arrow functions
+
+const ArrowMultiply = (a, b) => a * b;
+
+const ArrowAdd = (a, b) => a + b;
+
+const ArrowSubtract = (a, b) => a - b;
