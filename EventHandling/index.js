@@ -1,3 +1,5 @@
+
+// function that logs happy friday to the console
 function friday(){
     console.log('Happy Friday!');
 }
@@ -9,27 +11,26 @@ function plusOne(){
      zeroBox.value++;
 }
 
+// exercise two
+// input with 5 buttons that change the value
 function addOne(){
     let boxTwo = document.getElementById("boxTwo");
     boxTwo.value++;
 }
+// set boxTwo as a variable so we dont have to get element by
+// ID each time
+
+const boxTwo = document.getElementById("boxTwo");
+
 function addFive(){
-    let boxTwo = document.getElementById("boxTwo");
-    boxTwo.value++;
-    boxTwo.value++;
-    boxTwo.value++;
-    boxTwo.value++;
-    boxTwo.value++;
+    boxTwo.value-=-5;
 }
 function reset(){
-    let boxTwo = document.getElementById("boxTwo");
     boxTwo.value= 0;
 }
 function minusOne(){
-    let boxTwo = document.getElementById("boxTwo");
     boxTwo.value--;
 }
 function minusFive(){
-    let boxTwo = document.getElementById("boxTwo");
     boxTwo.value-=5;
 }
